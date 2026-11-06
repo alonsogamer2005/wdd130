@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+header {
+    background-color: green;
+    color: yellow;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+main {
+    padding: 100px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 15px;
+    text-align:center;
+    border-bottom: 8px solid yellow;
+}
+h2 {
+    border-bottom: 1px solid black;
+}
+h3 {
+    border-bottom: 1px solid black;
+}
+
+
+.imagen1 {
+    transform: translateX(270%);
+    width: 25%;
+    margin-top: -35px;
+    height: auto;
+    box-shadow: 0 0 50px purple;
+}
+
+.imagen2 {
+    transform: translateX(60%);
+    margin-top: 50px;
+    box-shadow: 0 0 50px yellow
+}
+
+.temple-info {
+    width: 60%;
+    transform: translateX(auto);
+    margin-top: -700px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #f0f8ff;
+    font-size: .9rem;
+}
+
+.temple-history {
+    width: 60%;
+    transform: translateX(auto);
+    margin-top: 60px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #f0f8ff;
+    font-size: .9rem;
+}
+
+.temple-architecture {
+    width: 60%;
+    transform: translateX(auto);
+    margin-top: 60px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #f0f8ff;
+    font-size: .9rem;
+}
+
+.temple-location {
+    width: auto;
+    transform: translateX(auto);
+    margin-top: 80px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #f0f8ff;
+    font-size: .9rem;
+}
+
+section {
+    width: auto;
+    margin-top: 45px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #f0f8ff;
+    font-size: .9rem;  
+}
+
+main {
+    padding: 100px;
+    margin: -40px auto;
+}
+footer {
+    background-color: green;
+    color: yellow;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+nav {
+    background-color: red;
+    padding:10px;
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+h1 {
+    color: green;
+    padding: .5rem;
+    border-bottom: 2px solid black
+}
+
+p {
+    width: 100%;
+    transform: translateX(auto);
+    margin-top: auto;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #f0f8ff;
+    font-size: .9rem;
+}
+
+.box0{
+    margin-top: -80px;
+    display: block;
+}
+
+.inspired{
+    position: relative;
+    width: 70%;
+    margin-left: 340px;
+    top: 5px;
+}
+
+.historyj{
+    position: relative;
+    top: -290px;
+    margin-left: 340px;
+    width: 84px;
+    border: 2px solid black;
+}
+.book{
+    position: relative;
+    margin-left: 1300px;
+    top: -500px;
+}
+
+.JMA{
+    position: relative;
+    width: 800px;
+    top:-290px;
+    margin-left: 340px;
+
+}
+.warningh2 {
+    width: 30%;
+    margin-left: 150px;
+    margin-top: -640px;
+    transform: translateX(auto);
+    border: 1px solid black;
+    padding: 10px;
+    background-color: palevioletred;
+    font-size: .9rem;
+}
+
+.warningimg {
+    display: block;
+    margin-left: 30px;
+    margin-top: -105px;
+}
+
+.box1{
+    width: 420px;
+    border: 2px solid black;
+}
+
+.text1{
+position: relative;
+width: 20%;
+margin-left: 360px;
+}
+
+.rio{
+    position:relative;
+    top: -150px;
+    border: 5px solid black;
+    width: 350px;
+}
+
+.yawarfiesta{
+position: relative;
+margin-left: 800px;
+top: -660px;
+border: 5px solid black;
+width: 350px;
+}
+
+.text2{
+    position: relative;
+    width: 20%;
+    margin-left: 1160px;
+    top: -515px;
+}
+
+.sexto{
+    position: relative;
+    top: -680px;
+    border: 5px solid black;
+    width: 400px;
+}
+
+.text3{
+    position: relative;
+    width: 20%;
+    margin-left: 410px;
+    top: -578px;
+}
+
+.elzorro{
+    position: relative;
+    top: -1220px;
+    margin-left: 900px;
+    border: 5px solid black;
+    width: 400px;
+}
+
+.text4{
+    position: relative;
+    width: 20%;
+    margin-left: 1310px;
+    top: -1096px;
+}
+
+footer{
+    margin-top: -1060px;
+    border-top: 2px solid red;
+    text-align: center;
+}

@@ -1,0 +1,244 @@
+/* HEADER COLOR */
+header {
+  background-color: #81c6ff;
+  border-bottom: 2px solid #000000;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Logo style to fit left-aligned with border */
+header img {
+  width: 80px;
+  height: auto;
+  border: 1px solid #777;
+  background-color: #fff;
+  padding: 2px;
+}
+
+/* Navigation menu container */
+header nav {
+  display: flex;
+  gap: 0.5rem;
+}
+
+/* Menu button boxes with a well-defined black/grey border */
+header nav a {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 0.5rem 1.2rem;
+  text-decoration: none;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Effect when you hover the mouse over it or are on the active page */
+header nav a:hover,
+header nav a.active {
+  background-color: #d0d0d0;
+}
+
+.company-info {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.company-info h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.4rem;
+  color: #111;
+}
+
+.company-info p {
+  margin: 0.2rem 0;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+/* Main grid */
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+  max-width: 1000px;
+  margin: 0 auto 2.5rem;
+  padding: 0 1rem;
+}
+
+/* Adjusted Google Map */
+.map-container iframe {
+  width: 100%;
+  height: 380px;
+  border: 1px solid #777;
+  display: block;
+}
+
+/* Form container */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.form-row label {
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.purpose-row {
+  align-items: start;
+}
+
+.purpose-label {
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding-top: 0.2rem;
+  line-height: 1.2;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: normal;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.form-message {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.form-message label {
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #777;
+  border-radius: 3px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  background-color: #fff;
+}
+
+.form-checkbox label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.contact-form input[type="checkbox"],
+.contact-form input[type="radio"] {
+  width: 16px;
+  height: 16px;
+  accent-color: #333;
+}
+
+/* Wireframe-style submit button */
+.contact-form button[type="submit"] {
+  width: 100%;
+  padding: 0.65rem;
+  background-color: #e0e0e0;
+  color: #111;
+  border: 1px solid #777;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.contact-form button[type="submit"]:hover,
+.contact-form button[type="submit"]:focus-visible {
+  background-color: #d0d0d0;
+}
+/* Limit the size of the logo in the header */
+header img {
+  width: 80px;
+  height: auto;
+}
+
+footer .sociallinks img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+/* Lower section of Employees */
+.employees-section {
+  background-color: #f8f8f8;
+  border: 1px solid #999;
+  padding: 1.5rem 1rem 2rem;
+  margin: 0 auto 2.5rem;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.employees-section h2 {
+  margin-bottom: 1.2rem;
+  font-size: 1.4rem;
+  color: #111;
+}
+
+.employees-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+.employees-grid figure {
+  margin: 0;
+  text-align: center;
+}
+
+.employees-grid img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 2px;
+  margin-bottom: 0.4rem;
+  background-color: #e2e2e2;
+  border: 1px solid #bbb;
+}
+
+.employees-grid figcaption {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #333;
+}
+
+/* Decorative lines at the bottom of the page */
+footer {
+  border-top: 2px solid #000000;
+  background-color: #81c6ff;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with Perú Expeditions for whitewater rafting reservations, general inquiries, or website feedback. Find our location, phone, and team.">
+    <meta name="author" content="German Alonso Paredes Huamanchumo">
+    <title>Perú Expeditions | Contact Us</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head> 
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Peru Expeditions Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html" class="active">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="company-info">
+            <h1>White Water Rafting Company</h1>
+            <p>123 Main River Street</p>
+            <p>Kolob, California</p>
+            <p>+1 985 148 9201</p>
+            <p>info@whitewater.com</p>
+        </section>
+
+        <section class="contact-grid">
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3178.936019801479!2d-113.1510926846995!3d37.17799297987237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ca8d360b511ef1%3A0xd9b264a53139030!2sKolob%20Canyons!5e0!3m2!1sen!2sus!4v1690000000000!5m2!1sen!2sus" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Location map of White Water Rafting Company">
+                </iframe>
+            </div>
+
+            <form class="contact-form" action="#" method="post">
+                <div class="form-row">
+                    <label for="username">Name</label>
+                    <input type="text" id="username" name="username" placeholder="Placeholder" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="useremail">Email</label>
+                    <input type="email" id="useremail" name="useremail" placeholder="Placeholder" required>
+                </div>
+
+                <div class="form-row purpose-row">
+                    <span class="purpose-label">Message<br>Purpose</span>
+                    <div class="radio-group">
+                        <label for="purpose-general">
+                            <input type="radio" id="purpose-general" name="purpose" value="general" required>
+                            General Inquiry
+                        </label>
+                        <label for="purpose-reservation">
+                            <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
+                            Reservation Question
+                        </label>
+                        <label for="purpose-suggestion">
+                            <input type="radio" id="purpose-suggestion" name="purpose" value="suggestion">
+                            Website Suggestion
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-message">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Type here" required></textarea>
+                </div>
+
+                <div class="form-checkbox">
+                    <label for="newsletter">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        Please Subscribe me to the monthly newsletter
+                    </label>
+                </div>
+
+                <button type="submit">Get in Touch!</button>
+            </form>
+        </section>
+
+        <section class="employees-section">
+            <h2>We Are Here to Serve You</h2>
+            <div class="employees-grid">
+                <figure>
+                    <img src="images/employees1.jpg" alt="Employee Profile 1">
+                    <figcaption>Employee Profile</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employees2.jpg" alt="Employee Profile 2">
+                    <figcaption>Employee Profile</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employees3.jpg" alt="Employee Profile 3">
+                    <figcaption>Employee Profile</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 | Perú Expeditions | Alonso Student</p>
+
+        <nav class="sociallinks">
+            <a href="https://facebook.com" target="_blank" rel="noopener"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="https://twitter.com" target="_blank" rel="noopener"><img src="images/twitter.png" alt="Twitter"></a>
+            <a href="https://instagram.com" target="_blank" rel="noopener"><img src="images/instagram.jpg" alt="Instagram"></a>
+        </nav>
+    </footer>
+</body>
+</html>

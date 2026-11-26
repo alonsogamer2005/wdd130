@@ -183,10 +183,6 @@ header nav a.active {
   background-color: #d0d0d0;
 }
 /* Limit the size of the logo in the header */
-header img {
-  width: 80px;
-  height: auto;
-}
 
 footer .sociallinks img {
   width: 30px;
